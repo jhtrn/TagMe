@@ -19,6 +19,7 @@ You will need the following things properly installed on your computer.
 * `cd into folder`
 * `npm install`
 * `bower install`
+* `ember install ember-countdown`
 
 ## Running / Development
 
