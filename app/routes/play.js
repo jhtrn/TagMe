@@ -16,6 +16,12 @@ function getImage () {
         var imgURL = data.results[0].media[0].gif.url;
         var numTag = data.results[0].itemurl.split("-");
 
+        //Had to split the imgURL to get tags, separated by '-'
+        //This was because the tenor api purposely returns the tag list as a null array
+        //We emailed tenor and they said that they can't return the tags
+        //because it is dependent on how their algorithm runs
+        //We didn't want to quit on the idea
+        //Therefore, we fixed it with this parsing solution instead
         var tagList = [];
         var firstTag = numTag[0].split("/");
         tagList.push(firstTag[firstTag.length-1]);
