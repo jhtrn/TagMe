@@ -27,6 +27,16 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
+## Issues
+
+* In **play.js under routes** code, we had to split the imgURL to get tags, separated by '-' <br />
+This is because the tenor api purposely returns the tag list as a null array. <br />
+We emailed tenor and they said that they can't return the tags. <br />
+They said that the tags are related to how they implement their search algorithm. <br />
+Since we didn't want to quit on this idea, we fixed it with this parsing solution instead. <br />
+* Sometimes, when a gif display text in a different language, the tag result will return undefined. <br />
+
+
 ## User Documentation
 
 ### Tutorial
