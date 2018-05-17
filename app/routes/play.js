@@ -43,6 +43,7 @@ function getImage () {
 export default Route.extend({
   model() {
     return getImage().then(function(result) {
+      // console.log("Object:", result); // For debugging!
       return [result];
     });
   }
