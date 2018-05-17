@@ -58,3 +58,7 @@ Click on **Scoreboard** in navigation bar to view scores of all the players rank
 Click on **Review Us** in navigation bar to leave a review of the game. <br />
 
 Reviews will be displayed on **Reviews** section in navigation bar.
+
+## Credits
+Gifs were generated from [`tenor API`](https://tenor.com/gifapi/documentation) <br />
+Image on home page was used under the **Creative Commons Zero (CC0) license** from [`PEXELS`](https://www.pexels.com)
